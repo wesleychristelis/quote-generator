@@ -5,25 +5,13 @@ This README would normally document whatever steps are necessary to get your app
 ### What is this repository for? ###
 
 * Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+    - Basic page for random quote generation. 
+* Version 1.0
+    - Hero patterns vector background (https://www.heropatterns.com/)
+    - Fonawesome icons and custom google font 
+    - "New Quote" button fetches a new quote 
+        - Loader in between when fetches take long
+    - "Tweet" button to publish the quote to a twitter account
+    - Responsive for mobile
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### Githib pages
