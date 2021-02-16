@@ -1,0 +1,10 @@
+html {
+    /* prevents padding from adding extra width / height */
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    /* viewport height: we want to stretch to height  */
+    min-height: 100vh;
+}
