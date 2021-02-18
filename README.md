@@ -14,4 +14,4 @@ This README would normally document whatever steps are necessary to get your app
     - "Tweet" button to publish the quote to a twitter account.
     - Responsive for mobile.
 
-### Githib pages
+### Github pages
