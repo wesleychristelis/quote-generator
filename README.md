@@ -20,3 +20,6 @@ Basic/rudimentary page that fetches a quote and displaysy it. You can tweet the 
     - https://htmldom.dev/
 
 ### Github pages
+
+### Todo
+- Use docker, build image and run local.
