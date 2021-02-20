@@ -29,7 +29,7 @@ async function getQuoteProxy() {
 }
 
 async function getQuoteAlt() {
-  loading();
+  showLoadingSpinner();
   const apiUrl = 'https://type.fit/api/quotes';
 
   try {
@@ -45,7 +45,7 @@ async function getQuoteAlt() {
 
 // Show new quote
 function showNewQuote() {
-  loading();
+  showLoadingSpinner();
   let quote = null;
 
   if(useApi){
@@ -63,7 +63,7 @@ function showNewQuote() {
   quoteText.textContent = quote.text;
   // Check quote author is null
   quote.author === null ? authorText.textContent = "Unknown" : authorText.textContent = quote.author;
-  complete();
+  removeLoadingSpinner();
   
   return quote;
 }
@@ -79,12 +79,12 @@ function generateRandomIndex(length) {
   return Math.floor(Math.random() * length);
 }
 
-function loading(){
+function showLoadingSpinner(){
   loader.hidden = false;
   quoteContainer.hidden = true;
 }
 
-function complete(){
+function removeLoadingSpinner(){
   loader.hidden = true;
   quoteContainer.hidden = false;
 }

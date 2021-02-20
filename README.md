@@ -14,5 +14,7 @@ This README would normally document whatever steps are necessary to get your app
     - "Tweet" button to publish the quote to a twitter account.
     - Responsive for mobile.
     - [Twitter AP](https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/guides/web-intent)
+* More about the DOM
+    - https://htmldom.dev/
 
 ### Github pages
