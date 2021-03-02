@@ -20,7 +20,7 @@ Basic/rudimentary page that fetches a quote and displaysy it. You can tweet the 
     - https://htmldom.dev/
 
 ### Github pages
-https://wesleychristelis.github.io/quote-generator/quote-generator
+https://wesleychristelis.github.io/quote-generator/index.html
 
 ### Todo
 - Use docker, build image and run local.
